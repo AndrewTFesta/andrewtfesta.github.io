@@ -1,4 +1,4 @@
-# Test Project Page
+Project Page
 =====
 
 # System Control
