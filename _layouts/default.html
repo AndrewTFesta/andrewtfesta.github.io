@@ -7,21 +7,16 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <style>
-      .footer {
-        display:flex;
-        position: fixed;
-        left: 0;
-        bottom: 0;
+      .page-footer {
+        display: table;
         width: 100%;
-        background-color: red;
-        color: white;
+        height: 200px;
         text-align: center;
       }
-      .footer ul{
-        align-items:center;
-      }
-      .footer ul li{
-        display:inline-block;
+      .social-icons {
+        display: table-cell;
+        height: 200px;
+        vertical-align: middle;
       }
     </style>
   </head>
@@ -74,4 +69,14 @@
 <!--      </section>-->
     </div>
   </body>
+
+  <footer class="page-footer">
+    <div class="social-icons">
+      <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" class="responsive-img" id="icon0">
+
+      <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" class="responsive-img" id="icon1">
+
+      <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" class="responsive-img" id="icon2">
+    </div>
+  </footer>
 </html>

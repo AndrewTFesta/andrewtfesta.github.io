@@ -5,7 +5,6 @@ layout: default
 A place all for me to just ramble and rant. And you've come across this place. How unfortunate of you.
 
 - [Latest Projects](#latest-projects)
-- [Contact Me](#contact-me)
 - [Where Am I?](#where-am-i)
 
 # Latest Projects
@@ -25,9 +24,3 @@ The listener capabilities have been moved into a single module. Callback functio
 # Where Am I?
 
 Currently, I am working as an AI Research Engineer at IOMAXIS in Alexandria, VA.
-
-# Contact Me
-
-The best way to contact me, for whatever reason you may have, is by email.
-
-[andrew@andrewtfesta.com](mailto:andrew@andrewtfesta.com)
