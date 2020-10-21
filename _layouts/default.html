@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <style>
+      .header-nav-container {
+        display: table;
+        width: 100%;
+        height: 10%;
+        text-align: center;
+        margin-bottom: 2%;
+      }
+      .nav-link {
+        width: 2%;
+        min-width: 21px;
+        height: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+      }
+
       .page-footer {
         display: table;
         width: 100%;
@@ -41,11 +58,19 @@
           <h1>AndrewTFesta.com</h1>
         </a>
 
-        <section id="navigation">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/research' | relative_url }}">Research</a>
-          <a href="{{ '/cv' | relative_url }}">CV</a>
-          <a href="{{ '/aboutme' | relative_url }}">About Me</a>
+        <section class="header-nav-container" id="navigation">
+          <a class="nav-link" href="{{ '/' | relative_url }}">
+            Home
+          </a>
+          <a class="nav-link" href="{{ '/research' | relative_url }}">
+            Research
+          </a>
+          <a class="nav-link" href="{{ '/cv' | relative_url }}">
+            CV
+          </a>
+          <a class="nav-link" href="{{ '/aboutme' | relative_url }}">
+            About Me
+          </a>
         </section>
       </div>
     </header>
