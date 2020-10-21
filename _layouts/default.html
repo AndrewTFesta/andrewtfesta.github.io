@@ -10,13 +10,23 @@
       .page-footer {
         display: table;
         width: 100%;
-        height: 200px;
+        height: 10%;
         text-align: center;
       }
-      .social-icons {
-        display: table-cell;
-        height: 200px;
+      .social-icon-container {
+        display: inline;
         vertical-align: middle;
+      }
+      .social-icon {
+        width: 2%;
+        min-width: 21px;
+        height: auto;
+        padding-left: 1%;
+        padding-right: 1%;
+
+      }
+      a {
+        text-decoration: none;
       }
     </style>
   </head>
@@ -45,7 +55,6 @@
     </div>
 
     <div class="container footer">
-<!--      <section id="contact_me">-->
       <h1>
         Contact Me
       </h1>
@@ -55,28 +64,27 @@
         <br>
         <a href="mailto:andrew@andrewtfesta.com">andrew@andrewtfesta.com</a>
       </p>
-      <ul>
-        <li>
-          <img class="responsive-img" src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="Gmail">
-        </li>
-        <li>
-          <img class="responsive-img" src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="Github">
-        </li>
-        <li>
-          <img class="responsive-img" src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="LinkedIn">
-        </li>
-      </ul>
-<!--      </section>-->
     </div>
   </body>
 
   <footer class="page-footer">
-    <div class="social-icons" style="display: inline">
-      <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" class="responsive-img" id="icon0">
+    <div class="social-icon-container">
+      <!-- Generic email icon -->
+      <a href="mailto:andrewtfesta.com">
+        <img class="social-icon" src="../assets/images/email_icon.png" alt="Gmail">
+      </a>
 
-      <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" class="responsive-img" id="icon1">
+      <!-- GitHub logo usage guidelines -->
+      <!-- https://github.com/logos -->
+      <a href="https://github.com/Adrang">
+        <img class="social-icon" src="../assets/images/github_icon.png" alt="GitHub">
+      </a>
 
-      <img src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" class="responsive-img" id="icon2">
+      <!-- LinkedIn logo usage guidelines -->
+      <!-- https://brand.linkedin.com/downloads -->
+      <a href="https://www.linkedin.com/in/andrew-festa/">
+        <img style="" class="social-icon" src="../assets/images/linkedin_icon.png" alt="LinkedIn">
+      </a>
     </div>
   </footer>
 </html>
