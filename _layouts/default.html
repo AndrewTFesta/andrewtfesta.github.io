@@ -6,7 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
-{% seo %}
+    <style>
+      .footer {
+        display:flex;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+      }
+      .footer ul{
+        align-items:center;
+      }
+      .footer ul li{
+        display:inline-block;
+      }
+    </style>
   </head>
 
   <body>
@@ -32,16 +49,28 @@
       </section>
     </div>
 
-    <div class="container">
+    <div class="container footer">
 <!--      <section id="contact_me">-->
       <h1>
         Contact Me
       </h1>
+
       <p>
         The best way to contact me, for whatever reason you may have, is by email.
-        
+        <br>
         <a href="mailto:andrew@andrewtfesta.com">andrew@andrewtfesta.com</a>
       </p>
+      <ul>
+        <li>
+          <img class="responsive-img" src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="Gmail">
+        </li>
+        <li>
+          <img class="responsive-img" src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="Github">
+        </li>
+        <li>
+          <img class="responsive-img" src="http://findicons.com/files/icons/818/aquaticus_social/64/facebook.png" alt="LinkedIn">
+        </li>
+      </ul>
 <!--      </section>-->
     </div>
   </body>
