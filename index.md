@@ -5,8 +5,12 @@ layout: default
 A place all for me to just ramble and rant. And you've come across this place. How unfortunate of you.
 
 - [Latest Projects](#latest-projects)
-- [Project Ideas](#project-ideas)
+- [Project Ideas](#project-and-paper-ideas)
   - [Honeynet Projects](#honeynet-projects)
+  - [General Projects](#general-projects)
+  - [General Papers](#general-papers)
+  - [Fun and/or Useful](#fun-andor-useful)
+  
 
 # Latest Projects
 
@@ -22,12 +26,14 @@ A release has been created for the code related to my thesis. This release is li
 
 The listener capabilities have been moved into a single module. Callback functions can now define an abstract signature taking a single argument that contains a dictionary of values. This allows for easier implementation of callbacks since all callback signatures are standardized.
 
-# Project Ideas
+# Project and Paper Ideas
 
 ## Honeynet Projects
 
 ### Transformers on Flows
 ### Best Defense is a Good Offense
+
+## General Projects
 
 ## Intuitive Control Interface
 
@@ -42,9 +48,13 @@ The listener capabilities have been moved into a single module. Callback functio
 ## Hostile Environment Operation
 ## Raspberry Pi Cluster
 
+## General Papers
+
 ## Expert Evaluation using EEG
 ## Authentication Through EEG
 ## Towards XAI of an Arbitrary Feedforward Neural Network through Input Modulation
+
+# Fun and/or Useful
 
 ## Thin-film Cutting Board Scale
 ## Staircase Elevator Platform
