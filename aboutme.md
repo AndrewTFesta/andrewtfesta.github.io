@@ -2,11 +2,16 @@
 layout: default
 ---
 
+- [Where Am I?](#where-am-i)
 - [Bio](#bio)
 - [Research Interests](#research-interests)
 - [My Lease on Life](#my-lease-on-life)
 - [Hobbies](#hobbies)
 - [Publications](#publications)
+
+# Where Am I?
+
+Currently, I am working as an AI Research Engineer at IOMAXIS in Alexandria, VA.
 
 # Bio
 
