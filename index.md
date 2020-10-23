@@ -10,7 +10,6 @@ A place all for me to just ramble and rant. And you've come across this place. H
   - [General Projects](#general-projects)
   - [General Papers](#general-papers)
   - [Fun and/or Useful](#fun-andor-useful)
-  
 
 # Latest Projects
 
