@@ -2,18 +2,10 @@
 layout: default
 ---
 
-[//]: # (- [Where Am I?]&#40;#where-am-i&#41;)
 - [Synopsis](#synopsis)
 - [Research Interests](#research-interests)
-
-[//]: # (- [My Lease on Life]&#40;#my-lease-on-life&#41;)
 - [Hobbies](#hobbies)
 - [Publications](#publications)
-
-[//]: # (# Where Am I?)
-
-[//]: # ()
-[//]: # (Currently, I am working as an AI Research Engineer at IOMAXIS in Alexandria, VA.)
 
 # Synopsis
 
@@ -37,9 +29,25 @@ Check out my [Research page](research.md) for a more in-depth set of ramblings o
 
 I'm not a very interesting person, so I make up for it by doing interesting things.
 
-## Old and Moldy Food
-## 3D Printing
+## Cooking
+### Old and Moldy Food
 ## Hockey
 ## Flying
 
+<img src="assets/images/first_solo.webp" alt="First Solo" width="200"/>
+
+<img src="assets/images/nc_off_wing.webp" alt="Aerial View of North Carolina" width="200"/>
+
+<img src="assets/images/rdu_night.webp" alt="RDU at Night" width="200"/>
+
 # Publications
+
+## Influence-Focused Asymmetric Island Model
+
+AAMAS ’24, Extended abstract
+
+## Reinforcing Inter-Class Dependencies in the Asymmetric Island Model
+
+GECCO ’24, Best paper nomination
+
+## Data Representation for Motor Imagery Classification
