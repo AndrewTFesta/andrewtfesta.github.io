@@ -2,18 +2,20 @@
 layout: default
 ---
 
-- [Where Am I?](#where-am-i)
-- [Bio](#bio)
+[//]: # (- [Where Am I?]&#40;#where-am-i&#41;)
+- [Synopsis](#synopsis)
 - [Research Interests](#research-interests)
-- [My Lease on Life](#my-lease-on-life)
+
+[//]: # (- [My Lease on Life]&#40;#my-lease-on-life&#41;)
 - [Hobbies](#hobbies)
 - [Publications](#publications)
 
-# Where Am I?
+[//]: # (# Where Am I?)
 
-Currently, I am working as an AI Research Engineer at IOMAXIS in Alexandria, VA.
+[//]: # ()
+[//]: # (Currently, I am working as an AI Research Engineer at IOMAXIS in Alexandria, VA.)
 
-# Bio
+# Synopsis
 
 I grew up in West Hartford, CT and went to Conard High School where I was able to take classes, and later work with, [Jackie Corricelli](https://sites.google.com/whps.org/corricelli). I attribute a large portion of my interest in Computer Science to her and her dedication to teaching. She also played a pivotal role in my Eagle project, helping to coordinate communication between Smith Elementary School and Conard for fostering an interest in 4th and 5th grade students in learning coding.
 
@@ -23,14 +25,13 @@ Starting in August 2015, I attended [Rochester Institute of Technology](https://
 
 Broadly speaking, my interest is in understanding and interacting with the world in which we live. Specifically, my interests focus on the following topics:
 
-- Artificial Intelligence/Machine Learning
-- Reinforcement Learning
-- Multi-agent systems
-- Human-Computer Interaction/Animal-Computer Interaction
+- Cooperative asymmetric multiagent learning
+- Temporal abstractions for extended time-horizons
+- Distributed learning architectures
 
 Check out my [Research page](research.md) for a more in-depth set of ramblings on each subdomain. 
 
-# My Lease on Life
+[//]: # (# My Lease on Life)
 
 # Hobbies
 
