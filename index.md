@@ -27,7 +27,7 @@ The listener capabilities have been moved into a single module. Callback functio
 
 # Project and Paper Ideas
 
-## Honeynet Projects
+## HoneyNet Projects
 
 #### Transformers on Flows
 #### Best Defense is a Good Offense
