@@ -32,11 +32,11 @@ I'm not a very interesting person, so I make up for it by doing interesting thin
 ## Hockey
 ## Flying
 
-<img src="../../assets/images/first_solo.webp" alt="First Solo" width="200"/>
+<img src="../assets/images/first_solo.webp" alt="First Solo" width="200"/>
 
-<img src="../../assets/images/nc_off_wing.webp" alt="Aerial View of North Carolina" width="200"/>
+<img src="../assets/images/nc_off_wing.webp" alt="Aerial View of North Carolina" width="200"/>
 
-<img src="../../assets/images/rdu_night.webp" alt="RDU at Night" width="200"/>
+<img src="../assets/images/rdu_night.webp" alt="RDU at Night" width="200"/>
 
 # Publications
 

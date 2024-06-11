@@ -11,7 +11,7 @@ layout: default
 
 # PDF Versions
 
-|| [Resume](../Festa_Andrew_resume.pdf) || [Undergraduate Transcript](../ugrad_unofficial_transcript.pdf) || [Graduate Transcript](../grad_unofficial_transcript.pdf) ||
+|| [Resume](assets/Festa_Andrew_resume.pdf) || [Undergraduate Transcript](assets/ugrad_unofficial_transcript.pdf) || [Graduate Transcript](assets/grad_unofficial_transcript.pdf) ||
 
 # Areas of Mediocrity
 
