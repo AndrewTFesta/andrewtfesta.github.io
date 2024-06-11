@@ -8,3 +8,5 @@ Gemfile.lock
 _site/
 
 scripts/**
+nb/**
+/todo.md
