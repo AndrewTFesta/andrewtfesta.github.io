@@ -2,13 +2,6 @@
 layout: default
 ---
 
-- [PDF Versions](#pdf-versions)
-- [Areas of Mediocrity](#areas-of-mediocrity)
-- [Education](#education)
-- [Work Experience](#work-experience)
-- [Personal Projects](#personal-projects)
-- [Writings and Musings](#writings-and-musings)
-
 # PDF Versions
 
 - [Resume](/docs/creds/Festa_Andrew_resume_mlr.pdf)
@@ -16,121 +9,233 @@ layout: default
 - [RIT Graduate Transcript](/docs/creds/rit_grad_transcript.pdf)
 - [RIT Undergraduate Transcript](/docs/creds/rit_ugrad_transcript.pdf)
 
-[//]: # (# Areas of Mediocrity)
-# Skills
+-----
 
-| Domains                 | Languages  | Frameworks |
-|:------------------------|:----------:|-----------:|
-| Artificial Intelligence |   Python   |     OpenCV |
-| Machine Learning        |     C#     |    PyTorch |
-| Multiagent Learning     |     C#     |        ROS |
-| Networking              |    Java    | Tensorflow |
-| Cybersecurity           |    SQL     |    Jupyter |
-| Embedded Systems        |    Ruby    |     Django |
-| Signal Processing       | Javascript |      Flask |
-| Web Development         |  HTML/CSS  |        AWS |
+<details>
+<summary>
+  Skills
+</summary>
 
-# Education
+<table style="width:100%; text-align: center; border: 1px solid #90a959">
+  <tr>
+    <th style="width:30%; text-align: center">Domains</th>
+    <th style="width:30%; text-align: center">Languages</th>
+    <th style="width:30%; text-align: center">Country</th>
+  </tr>
+  <tr>
+    <td>Artificial Intelligence</td>
+    <td>Python</td>
+    <td>OpenCV</td>
+  </tr>
+  <tr>
+    <td>Machine Learning</td>
+    <td>C#</td>
+    <td>PyTorch</td>
+  </tr>
+  <tr>
+    <td>Multiagent Learning</td>
+    <td>C++</td>
+    <td>ROS</td>
+  </tr>
+  <tr>
+    <td>Networking</td>
+    <td>Java</td>
+    <td>TensorFlow</td>
+  </tr>
+  <tr>
+    <td>Cybersecurity</td>
+    <td>SQL</td>
+    <td>Jupyter</td>
+  </tr>
+  <tr>
+    <td>Embedded Systems</td>
+    <td>Ruby</td>
+    <td>Django</td>
+  </tr>
+  <tr>
+    <td>Signal Processing</td>
+    <td>Javascript</td>
+    <td>Flask</td>
+  </tr>
+  <tr>
+    <td>Web Development</td>
+    <td>HTML/CSS</td>
+    <td>AWS</td>
+  </tr>
+</table>
 
-## Master's of Science
+</details>
 
-Robotics
+<details>
+<summary>
+Education
+</summary>
 
-GPA: 3.57
+<h2>
+Master of Science: Robotics
+</h2>
 
-September 2021 - September 2023
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div style="width: 600px; display: table-cell;"> September 2021 - September 2023 </div>
+        <div style="display: table-cell;"> GPA: 3.57 </div>
+    </div>
+</div>
+<div style="white-space: pre">
+<a href="/docs/pubs/raim___gecco.pdf">Reinforcing Inter-Class Dependencies in the Asymmetric Island Model</a>
+<a href="/docs/pubs/influence_focused_learning___aamas.pdf">Influence-Focused Asymmetric Island Model</a>
+</div>
 
-[Reinforcing Inter-Class Dependencies in the Asymmetric Island Model](/docs/pubs/raim___gecco.pdf)
-[Influence-Focused Asymmetric Island Model](/docs/pubs/influence_focused_learning___aamas.pdf)
+<br>
 
-## Master's of Science
+<h2>
+Master of Science: Computer Science
+</h2>
 
-Computer Science
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div style="width: 600px; display: table-cell;"> August 2015 - May 2020 </div>
+        <div style="display: table-cell;"> GPA: 3.6 </div>
+    </div>
+</div>
+<div style="white-space: pre">
+<a href="/docs/pubs/Data_Representation_for_Motor_Imagery_Classification.pdf">Data Representation for Motor Imagery Classification</a>
+</div>
 
-GPA: 3.6
+<br>
 
-August 2015 - May 2020
+<h2>
+Bachelor of Science: Computer Science and Electrical Engineering
+</h2>
 
-[Data Representation for Motor Imagery Classification](/docs/pubs/Data_Representation_for_Motor_Imagery_Classification.pdf)
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <div style="width: 600px; display: table-cell;"> August 2018 - May 2020 </div>
+        <div style="display: table-cell;"> GPA: 3.62 </div>
+    </div>
+</div>
+<div style="white-space: pre">
+Philosophy Immersion
+</div>
+</details>
 
-## Bachelor's of Science
+<details>
+<summary>
+Work Experience
+</summary>
 
-Computer Science and Electrical Engineering, Double Major
+<h2>Oregon State University</h2>
 
-GPA: 3.62
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Graduate Research Assistant </h4>
+        <h4 style="display: table-cell;"> June 2022 - September 2023 </h4>
+    </div>
+</div>
 
-August 2018 - May 2020
+<ul>
+<li>Authored a detailed literature review on multiagent temporal abstractions over extended time horizons, identifying three promising research directions to advance the field</li>
+<li>Designed a framework for learning inter-agent dependencies that arise due to environmental dynamics</li>
+<li>Published papers achieving 35% faster learning with 10% improved performance over asymmetric island models</li>
+</ul>
 
-Immersion: Philosophy
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Graduate Teaching Assistant </h4>
+        <h4 style="display: table-cell;"> September 2021 - June 2022 </h4>
+    </div>
+</div>
+<ul>
+<li>Led teaching sections on architectural design of software with a focus on clean and maintainable code</li>
+<li>Formulated teaching plans for algorithm design and analysis, mobile and web development, and data structures</li>
+<li>Automated grading and feedback for algorithm implementations in multiple programming languages that reduced workload by over 85%</li>
+</ul>
 
-# Work Experience
+<h2>IOMAXIS</h2>
 
-## Oregon State University
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Artificial Intelligence Research Engineer </h4>
+        <h4 style="display: table-cell;"> June 2022 - September 2023 </h4>
+    </div>
+</div>
+<ul>
+<li>Implemented a multi-agent reinforcement learner to automate search and rescue efforts by autonomous drones that self-learned how to fly
+and navigate in a simulated real-world crisis area using AirSim</li>
+<li>Organized creation of a project to reduce overhead with identifying and pursuing new project proposals</li>
+<li>Designed a GUI for detection and analysis of zero-day attacks and anomalous system behavior</li>
+</ul>
 
-#### Graduate Research Assistant, June 2022 - September 2023
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Artificial Intelligence Research Co-op </h4>
+        <h4 style="display: table-cell;"> September 2021 - June 20223 </h4>
+    </div>
+</div>
+<ul>
+<li>Designed and implemented a network intrusion management system able to cordon off intrusions on a live network in less than 8 seconds</li>
+<li>Developed AI-based approach using YOLOv3 for landmark recognition from phone images that achieved 98% using top-3 classification</li>
+<li>Performed and presented comparison tests of different machine learning models and cleaning methods to inform contract proposals</li>
+</ul>
 
-- Authored a detailed literature review on multiagent temporal abstractions over extended time horizons, identifying three promising research
-directions to advance the field
-- Designed a framework for learning inter-agent dependencies that arise due to environmental dynamics
-- Published papers achieving 35% faster learning with 10% improved performance over asymmetric island models
+<h2>UTC Aerospace Systems</h2>
 
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Software Engineer co-op </h4>
+        <h4 style="display: table-cell;"> January 2017 - Aug. 2017 </h4>
+    </div>
+</div>
+<ul>
+<li>Led efforts in developing test harness for verifying and validating code functionality on target systems to comply with DO-178C</li>
+<li>Cleaned and analyzed messy sensor data that fed into systems used for detection of aircraft fires</li>
+<li>Automated generating metric reports detailing code completion to present to customers</li>
+</ul>
 
-#### Graduate Teaching Assistant, September 2021 - June 2022
+<!--
+<h2>Rochester Institute of Technology</h2>
 
-- Led teaching sections on architectural design of software with a focus on clean and maintainable code
-- Formulated teaching plans for algorithm design and analysis, mobile and web development, and data structures
-- Automated grading and feedback for algorithm implementations in multiple programming languages that reduced workload by over 85%
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Grader, Mechanics of Programming (C) </h4>
+        <h4 style="display: table-cell;"> August 2016 - Dec. 2016 </h4>
+    </div>
+</div>
+<ul>
+<li>Reviewed and tested submitted code for success of implementation and quality of documentation</li>
+<li>Worked alongside students in aiding them on how to better develop readable and maintainable code</li>
+<li>Developed test cases and scripts to automate the process of running code and providing meaningful feedback to students</li>
+</ul>
+-->
 
-## IOMAXIS, LLC
+<h2>Sophos</h2>
 
-##### Artificial Intelligence Research Engineer, September 2019 - August 2021
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Security Engineer Co-op </h4>
+        <h4 style="display: table-cell;"> June 2016 - Aug. 2016 </h4>
+    </div>
+</div>
+<ul>
+<li>Automated the discovery of external OSINT assets, including available employee information, domains, and IP ranges</li>
+<li>Leveraged Java and Burps Suite to automate vulnerabilities assessment in front- and web-facing internal assets</li>
+<li>Uncovered and validated potential threat vectors prior to exploit and aided in remediation of findings</li>
+</ul>
+</details>
 
-- Implemented a multi-agent reinforcement learner to automate search and rescue efforts by autonomous drones that self-learned how to fly
-and navigate in a simulated real-world crisis area using AirSim
-- Organized creation of a project to reduce overhead with identifying and pursuing new project proposals
-- Designed a GUI for detection and analysis of zero-day attacks and anomalous system behavior
+<details>
+<summary>
+Projects
+</summary>
 
-##### Artificial Intelligence Researcher Co-op, May 2018 - September 2019
+<h2>
+<a href="/projects/systemcontrol">Brain-Controlled Control Interface</a>
+</h2>
 
-- Designed and implemented a network intrusion management system able to cordon off intrusions on a live network in less than 8 seconds
-- Developed AI-based approach using YOLOv3 for landmark recognition from phone images that achieved 98% using top-3 classification
-- Performed and presented comparison tests of different machine learning models and cleaning methods to inform contract proposals
+<ul>
+<li>Designed iterative implementations for a headset to gather reliable electroencephalogram signals from the scalp</li>
+<li>Incorporates notch filters and cable shielding to reduce signal noise</li>
+<li>Allows for impedance checking to measure reliability of gathered signal</li>
+</ul>
 
-## UTC Aerospace Systems
-
-##### Software Engineer co-op, January 2017 - Aug. 2017
-
-- Led efforts in developing test harness for verifying and validating code functionality on target systems to comply with DO-178C
-- Cleaned and analyzed messy sensor data that fed into systems used for detection of aircraft fires
-- Automated generating metric reports detailing code completion to present to customers
-
-[//]: # (## Rochester Institute of Technology)
-[//]: # ()
-[//]: # (##### Grader, Mechanics of Programming &#40;C&#41;, August 2016 - Dec. 2016)
-[//]: # ()
-[//]: # (- Reviewed and tested submitted code for success of implementation and quality of documentation)
-[//]: # (- Worked alongside students in aiding them on how to better develop readable and maintainable code)
-[//]: # (- Developed test cases and scripts to automate the process of running code and providing meaningful feedback to students)
-
-## Sophos
-
-##### Security Engineer Co-op, June 2016 - Aug. 2016
-
-- Automated the discovery of external OSINT assets, including available employee information, domains, and IP ranges
-- Leveraged Java and Burps Suite to automate vulnerabilities assessment in front- and web-facing internal assets
-- Uncovered and validated potential threat vectors prior to exploit and aided in remediation of findings
-
-# Projects
-
-## [Brain-Controlled Interface Headset](projects/systemcontrol)
-
-- Designed iterative implementations for a headset to gather reliable electroencephalogram signals from the scalp
-- Incorporates notch filters and cable shielding to reduce signal noise
-- Allows for impedance checking to measure reliability of gathered signal
-
-[//]: # (# Publications)
-
-[//]: # ()
-[//]: # (- [Camera Calibration and Stereo Imaging]&#40;https://github.com/Adrang/papers-and-publications/blob/master/Camera_Calibration_and_Stereo_Imaging.pdf&#41;)
-[//]: # (- [Drawing Correlations Between Video and EEG]&#40;https://github.com/Adrang/papers-and-publications/blob/master/Drawing_Correlations_Between_Video_and_EEG.pdf&#41;)
-[//]: # (- [Review of Approaches for Image Segmentation]&#40;https://github.com/Adrang/papers-and-publications/blob/master/Review_of_Approaches_for_Image_Segmentation.pdf&#41;)
+</details>
