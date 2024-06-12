@@ -128,8 +128,9 @@ and navigate in a simulated real-world crisis area using AirSim
 - Incorporates notch filters and cable shielding to reduce signal noise
 - Allows for impedance checking to measure reliability of gathered signal
 
-# Publications
+[//]: # (# Publications)
 
-- [Camera Calibration and Stereo Imaging](https://github.com/Adrang/papers-and-publications/blob/master/Camera_Calibration_and_Stereo_Imaging.pdf)
-- [Drawing Correlations Between Video and EEG](https://github.com/Adrang/papers-and-publications/blob/master/Drawing_Correlations_Between_Video_and_EEG.pdf)
-- [Review of Approaches for Image Segmentation](https://github.com/Adrang/papers-and-publications/blob/master/Review_of_Approaches_for_Image_Segmentation.pdf)
+[//]: # ()
+[//]: # (- [Camera Calibration and Stereo Imaging]&#40;https://github.com/Adrang/papers-and-publications/blob/master/Camera_Calibration_and_Stereo_Imaging.pdf&#41;)
+[//]: # (- [Drawing Correlations Between Video and EEG]&#40;https://github.com/Adrang/papers-and-publications/blob/master/Drawing_Correlations_Between_Video_and_EEG.pdf&#41;)
+[//]: # (- [Review of Approaches for Image Segmentation]&#40;https://github.com/Adrang/papers-and-publications/blob/master/Review_of_Approaches_for_Image_Segmentation.pdf&#41;)
