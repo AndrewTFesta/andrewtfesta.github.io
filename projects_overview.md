@@ -5,7 +5,7 @@ layout: default
 Projects
 =====
 
-- [IslandsSC](#islandssc)
+- [Distributed Optimization of Asymmetric Actors](#distributed-asymmetric-optimization)
 - [SmartWoW](#smartwow)
 - [AutoDrone](#autodrone)
 - [SystemControl](#systemcontrol)
@@ -14,7 +14,7 @@ Projects
 
 ---
 
-## [IslandsSC](https://github.com/AndrewTFesta/IslandsSC)
+## [Distributed Asymmetric Optimization](https://github.com/AndrewTFesta/island_influence)
 
 This code was developed in support of research done on multiagent learning in cooperative asymmetric context.
 
