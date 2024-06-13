@@ -25,9 +25,14 @@ If you have grand ideas, let me be the developer that helps you bring them into 
 [//]: # ()
 [//]: # (I am passionate about leveraging my skills to drive technological advancements and contribute to cutting-edge AI research and applications. I am currently seeking opportunities that allow me to work on impactful projects, collaborate with interdisciplinary teams, and continue my professional growth in the fields of machine learning and AI.)
 
-|                                          []()                                           |                                                          |                                                  |
-|:---------------------------------------------------------------------------------------:|:--------------------------------------------------------:|:------------------------------------------------:|
-| [Distributed Asymmetric Optimization](https://github.com/AndrewTFesta/island_influence) | [SystemControl](https://github.com/Adrang/SystemControl) | [AutoDrone](https://github.com/Adrang/AutoDrone) |
+
+<table style="width: 100%">
+  <tr>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/AutoDrone">Distributed Asymmetric Optimization</a></th>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/AutoDrone">SystemControl</a></th>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/AutoDrone">AutoDrone</a></th>
+  </tr>
+</table>
 
 -----
 
