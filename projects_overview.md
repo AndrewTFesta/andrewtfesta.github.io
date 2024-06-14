@@ -35,28 +35,6 @@ This work introduces Reinforced Asymmetric Island Model (RAIM), a framework for 
 
 <details class="project">
 <summary>
-SmartWoW <a href="https://github.com/AndrewTFesta/SmartWoW"><img class="codelink" src="assets/images/link.png" alt="Link to code"></a>
-</summary>
-
-<div>
-
-</div>
-</details>
-
-<details class="project">
-<summary>
-AutoDrone <a href="https://github.com/AndrewTFesta/AutoDrone"><img class="codelink" src="assets/images/link.png" alt="Link to code" ></a>
-</summary>
-
-<div>
-
-The newest changes to my autonomous drone project is an replacing the flight controller stack with an RL-based, on-board flight controller. A pretrained agent is trained in AirSim to get a basic handle on controlling the motors. The agent is then transported to the RPi and continues training in the real-world.
-
-</div>
-</details>
-
-<details class="project">
-<summary>
 SystemControl <a href="https://github.com/AndrewTFesta/SystemControl"><img class="codelink" src="assets/images/link.png" alt="Link to code"></a>
 </summary>
 
@@ -147,6 +125,31 @@ Doing this, we can build up a well-labeled dataset for a lot of different forms 
 
 </div>
 </details>
+
+<!--
+<details class="project">
+<summary>
+SmartWoW <a href="https://github.com/AndrewTFesta/SmartWoW"><img class="codelink" src="assets/images/link.png" alt="Link to code"></a>
+</summary>
+
+<div>
+
+</div>
+</details>
+-->
+
+<details class="project">
+<summary>
+AutoDrone <a href="https://github.com/AndrewTFesta/AutoDrone"><img class="codelink" src="assets/images/link.png" alt="Link to code" ></a>
+</summary>
+
+<div>
+
+The newest changes to my autonomous drone project is an replacing the flight controller stack with an RL-based, on-board flight controller. A pretrained agent is trained in AirSim to get a basic handle on controlling the motors. The agent is then transported to the RPi and continues training in the real-world.
+
+</div>
+</details>
+
 
 <details class="project">
 <summary>

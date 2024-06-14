@@ -43,6 +43,17 @@ a {
     text-decoration: none;
 }
 
+details {
+  /*background: #FDF4E3;;*/
+  /*top right bottom left*/
+  margin: 0 auto 1rem 1em;
+  /*top right bottom left*/
+  padding: 0 10px 10px 10px;
+  border-radius: 5px;
+  /*color: black;*/
+  outline-width: 2px;
+}
+
 details > summary {
   font-size: 30px;
   font-weight: bold;
@@ -54,7 +65,27 @@ details > summary {
   width: 100%;
   padding: 20px 0;
   margin: 0 0 20px;
+  /*position: relative;*/
+  /*cursor: pointer;*/
 }
+
+details:focus,
+details:hover,
+details[open],
+details:active {
+  background: #151515;
+}
+
+/*details[open] summary {*/
+/*   background: #151515;*/
+/*}*/
+
+summary:focus,
+summary:hover,
+summary:active {
+  background: none;
+}
+
 
 details > table {
   font-size: 16px;

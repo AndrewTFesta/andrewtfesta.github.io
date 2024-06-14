@@ -2,6 +2,8 @@
 layout: default
 ---
 
+Software engineer, machine learning researcher, pilot, and gamer.
+
 I am a Machine Learning Engineer and Researcher with a passion for solving problems and building innovative solutions. My commitment to my work is strongest when I am engaged in projects that involve creating and realizing impactful ideas. Reflecting on my experiences, especially those at IOMAXIS, I find the most fulfillment in developing full-scale products and solutions rather than smaller, less integrated tasks.
 
 In the near future, I am seeking opportunities that allow me to expand my skill set in both the engineering processes and the holistic development of products or ideas. My goal is to contribute to and learn from projects that have the potential to grow into something significant and lasting. I aspire to build and be proud of something that extends beyond small-scale initiatives, grounded in a vision for the future.
