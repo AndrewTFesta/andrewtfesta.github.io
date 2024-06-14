@@ -27,6 +27,7 @@ If you have grand ideas, let me be the developer that helps you bring them into 
 [//]: # ()
 [//]: # (I am passionate about leveraging my skills to drive technological advancements and contribute to cutting-edge AI research and applications. I am currently seeking opportunities that allow me to work on impactful projects, collaborate with interdisciplinary teams, and continue my professional growth in the fields of machine learning and AI.)
 
+<hr>
 
 <table style="width: 100%">
   <tr>
@@ -36,7 +37,6 @@ If you have grand ideas, let me be the developer that helps you bring them into 
   </tr>
 </table>
 
------
 
 ## Outlier
 
