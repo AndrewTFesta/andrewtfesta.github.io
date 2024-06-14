@@ -5,6 +5,17 @@ layout: default
 Projects
 =====
 
+<hr>
+
+<table style="width: 100%">
+  <tr>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/island_influence">Distributed Asymmetric Optimization</a></th>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/SystemControl">SystemControl</a></th>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/AutoDrone">AutoDrone</a></th>
+    <th style="width:30%; text-align: center"><a href="https://github.com/AndrewTFesta/AndrUtil">AndrUtil</a></th>
+  </tr>
+</table>
+
 <details class="project">
 <summary>
 Distributed Asymmetric Optimization <a href="https://github.com/AndrewTFesta/island_influence"><img class="codelink" src="assets/images/link.png" alt="Link to code"></a>
