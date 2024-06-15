@@ -2,8 +2,12 @@
 layout: default
 ---
 
-Projects
-=====
+<div class="detailsButtons">
+  <button type="button" onclick="openAllDetails()">Expand all</button>
+  <button type="button" onclick="closeAllDetails()">Close all</button>
+</div>
+
+# Projects
 
 <hr>
 

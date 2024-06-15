@@ -7,6 +7,10 @@ layout: default
 - [Hobbies](#hobbies)
 - [Publications](#publications)
 
+Software engineer, machine learning researcher, pilot, and gamer.
+
+As for gamer, I thrive in strategy and chaos.
+
 # Synopsis
 
 I grew up in West Hartford, CT and went to Conard High School where I was able to take classes, and later work with, [Jackie Corricelli](https://sites.google.com/whps.org/corricelli). I attribute a large portion of my interest in Computer Science to her and her dedication to teaching. She also played a pivotal role in my Eagle project, helping to coordinate communication between Smith Elementary School and Conard for fostering an interest in 4th and 5th grade students in learning coding.

@@ -2,14 +2,103 @@
 layout: default
 ---
 
+<div class="detailsButtons">
+  <button type="button" onclick="openAllDetails()">Expand all</button>
+  <button type="button" onclick="closeAllDetails()">Close all</button>
+</div>
+
 # PDF Versions
 
-- [Resume](/docs/creds/Festa_Andrew_resume_mlr.pdf)
+- [Resume](/docs/creds/afesta_resume_mlr.pdf)
 - [OSU Graduate Transcript](/docs/creds/osu_transcript.pdf)
 - [RIT Graduate Transcript](/docs/creds/rit_grad_transcript.pdf)
 - [RIT Undergraduate Transcript](/docs/creds/rit_ugrad_transcript.pdf)
 
 -----
+
+<!--
+# Programming Languages:
+
+Python
+C++
+C#
+Java
+SQL
+NoSQL
+MATLAB
+Arduino
+
+# Frameworks and Tools:
+
+TensorFlow
+PyTorch
+SciPy
+OpenCV
+CUDA
+AWS
+Azure
+Simulink
+React
+
+# Machine Learning and AI:
+
+Reinforcement Learning
+Multi-agent Systems
+Large Language Models (LLMs)
+Neural Networks
+Model Training and Evaluation
+Prompt Engineering
+Data Science
+Audio Separation
+Landmark Recognition
+Robotics
+
+# Cybersecurity:
+
+Vulnerability Assessment
+OSINT
+Network Intrusion Management
+Zero-day Attack Detection
+
+# Data Analysis:
+
+Spectrogram Analysis
+Feature Extraction
+Sensor Data Cleaning and Analysis
+Metric Reporting Automation
+Project Management and Collaboration:
+
+# Project Management:
+
+Designing and Implementing Test Harnesses
+Automated Reporting
+Proposal Targeting and Development
+
+# Collaboration:
+
+Interdisciplinary Team Collaboration
+Mentoring and Training Interns
+Reviewing Requirements and Code Submissions
+
+# Research and Publications:
+
+Conducting Literature Reviews
+Publishing in Reputable Journals
+Presenting Research Findings
+Soft Skills:
+
+# Problem-Solving:
+
+Debugging and Fixing Code Issues
+Developing Innovative Solutions
+Identifying Performance Deviations
+
+# Communication:
+
+Providing Clear and Concise Updates
+Writing Technical Documentation
+Presenting to Customers and Stakeholders
+-->
 
 <details>
 <summary>
