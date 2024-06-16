@@ -1,13 +1,11 @@
 header {
-  position: fixed;
   top: 0;
   width: 100%;
-  height: 5%;
   background: #151515 url("../images/bkg.png");
 }
 
+/*https://stackoverflow.com/questions/643879/css-to-make-html-page-footer-stay-at-bottom-of-the-page-with-a-minimum-height-b*/
 body {
-  margin-top: 5%;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
   color: #eaeaea;
@@ -16,7 +14,6 @@ body {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
 }
 
-/* General & 'Reset' Stuff */
 .container {
   width: 90%;
   max-width: 1000px;
@@ -29,7 +26,7 @@ body {
   height: 10%;
   text-align: center;
   margin-bottom: 2%;
-  }
+}
 
 .nav-link {
   width: 2%;
