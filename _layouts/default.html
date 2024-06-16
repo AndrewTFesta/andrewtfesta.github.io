@@ -11,7 +11,15 @@
     <meta http-equiv='pragma' content='no-cache'>
 
     <!-- tab styling -->
+    {% if site.title %}
+      {% if page.title %}
+      <title>{{ site.title }} | {{ page.title }}</title>
+      {% else %}
+      <title>{{ site.title }}</title>
+      {% endif %}
+    {% else %}
     <title>Andrew T. Festa</title>
+    {% endif %}
     <link rel="icon" type="image/png" href="../assets/images/moyo.png">
 
     <!-- page styling -->
@@ -21,8 +29,11 @@
     <!-- Let's make stuff happen   -->
     <script src="../assets/js/default.js"></script>
 
-    <!-- Google Analytics -->
+<!-- Google Analytics -->
+<!-- We don't want ga to get confused when we're building and testing the site locally -->
+    {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
+    {% endif %}
   </head>
 
   <body>
