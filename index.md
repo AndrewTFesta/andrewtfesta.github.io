@@ -9,7 +9,7 @@ In the near future, I am seeking opportunities that allow me to expand my skill 
 
 If you have grand ideas, let me be the developer that helps you bring them into the tangible, lasting solutions. I am eager to engage in opportunities that allow for me to contribute and scale challenging, meaningful projects.
 
-Visit my [About Me](aboutme.md) page to read about who I am.
+Visit my [About Me](aboutme) page to read about who I am.
 
 [//]: # (A place all for me to just ramble and rant. And you've come across this place. How unfortunate of you.)
 
