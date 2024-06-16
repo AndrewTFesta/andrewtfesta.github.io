@@ -1,70 +1,9 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include head.html %}
 
-    <!--  CDN management to ensure site changes are reflected faster  -->
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
-
-    <!-- tab styling -->
-    {% if site.title %}
-      {% if page.title %}
-      <title>{{ site.title }} | {{ page.title }}</title>
-      {% else %}
-      <title>{{ site.title }}</title>
-      {% endif %}
-    {% else %}
-    <title>Andrew T. Festa</title>
-    {% endif %}
-    <link rel="icon" type="image/png" href="../assets/images/moyo.png">
-
-    <!-- page styling -->
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="../assets/css/default.css">
-
-    <!-- Let's make stuff happen   -->
-    <script src="../assets/js/default.js"></script>
-
-<!-- Google Analytics -->
-<!-- We don't want ga to get confused when we're building and testing the site locally -->
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
-  </head>
-
+  {% include header.html %}
   <body>
-    <header>
-      <div class="container">
-
-        <a id="a-title" href="{{ '/' | relative_url }}">
-          <h1>AndrewTFesta.com</h1>
-        </a>
-        <br>
-
-        <section class="header-nav-container" id="navigation">
-          <a class="nav-link" href="{{ '/research' | relative_url }}">
-            Research
-          </a>
-          <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">
-            Projects
-          </a>
-          <a class="nav-link" href="{{ '/cv' | relative_url }}">
-            CV
-          </a>
-          <a class="nav-link" href="{{ '/aboutme' | relative_url }}">
-            About Me
-          </a>
-          <a class="nav-link" href="{{ '/lessons' | relative_url }}">
-            Lessons Learned
-          </a>
-        </section>
-      </div>
-    </header>
-
     <div class="container">
       <section id="main_content">
         {{ content }}
@@ -72,31 +11,5 @@
     </div>
   </body>
 
-  <footer class="page-footer">
-    <hr>
-
-    <div class="social-icon-container">
-      <!-- Generic email icon -->
-      <a href="mailto:andrewtfesta.com">
-        <img class="social-icon" src="../assets/images/email_icon.png" alt="Gmail">
-      </a>
-
-      <!-- GitHub logo usage guidelines -->
-      <!-- https://github.com/logos -->
-      <a href="https://github.com/AndrewTFesta">
-        <img class="social-icon" src="../assets/images/github_icon.png" alt="GitHub">
-      </a>
-
-      <!-- LinkedIn logo usage guidelines -->
-      <!-- https://brand.linkedin.com/downloads -->
-      <a href="https://www.linkedin.com/in/andrew-festa/">
-        <img style="" class="social-icon" src="../assets/images/linkedin_icon.png" alt="LinkedIn">
-      </a>
-    </div>
-
-    <div>
-      <div style="width: 100%;">Written in Markdown and HTML, styled with Jekyll and CSS, tainted by JS</div>
-      <div style="width: 100%;">Hosted on Github Pages</div>
-    </div>
-  </footer>
+  {% include footer.html %}
 </html>
