@@ -3,11 +3,6 @@ title: CV
 layout: default
 ---
 
-<div class="detailsButtons">
-  <button type="button" onclick="openAllDetails()">Expand all</button>
-  <button type="button" onclick="closeAllDetails()">Close all</button>
-</div>
-
 # PDF Versions
 
 - [Resume](/docs/creds/afesta_resume_mlr.pdf)
@@ -101,10 +96,8 @@ Writing Technical Documentation
 Presenting to Customers and Stakeholders
 -->
 
-<details>
-<summary>
-  Skills
-</summary>
+
+# Skills
 
 <table style="width:100%; text-align: center; border: 1px solid #90a959">
   <tr>
@@ -154,16 +147,9 @@ Presenting to Customers and Stakeholders
   </tr>
 </table>
 
-</details>
+# Education
 
-<details>
-<summary>
-Education
-</summary>
-
-<h2>
-Master of Science: Robotics
-</h2>
+## Master of Science: Robotics
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -171,16 +157,11 @@ Master of Science: Robotics
         <div style="display: table-cell;"> GPA: 3.57 </div>
     </div>
 </div>
-<div style="white-space: pre">
-<a href="/docs/pubs/raim___gecco.pdf">Reinforcing Inter-Class Dependencies in the Asymmetric Island Model</a>
-<a href="/docs/pubs/influence_focused_learning___aamas.pdf">Influence-Focused Asymmetric Island Model</a>
-</div>
 
-<br>
+- <a href="/docs/pubs/raim___gecco.pdf">Reinforcing Inter-Class Dependencies in the Asymmetric Island Model</a>
+- <a href="/docs/pubs/influence_focused_learning___aamas.pdf">Influence-Focused Asymmetric Island Model</a>
 
-<h2>
-Master of Science: Computer Science
-</h2>
+## Master of Science: Computer Science
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -188,15 +169,10 @@ Master of Science: Computer Science
         <div style="display: table-cell;"> GPA: 3.6 </div>
     </div>
 </div>
-<div style="white-space: pre">
-<a href="/docs/pubs/Data_Representation_for_Motor_Imagery_Classification.pdf">Data Representation for Motor Imagery Classification</a>
-</div>
 
-<br>
+- <a href="/docs/pubs/Data_Representation_for_Motor_Imagery_Classification.pdf">Data Representation for Motor Imagery Classification</a>
 
-<h2>
-Bachelor of Science: Computer Science and Electrical Engineering
-</h2>
+## Bachelor of Science: Computer Science and Electrical Engineering
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -204,17 +180,12 @@ Bachelor of Science: Computer Science and Electrical Engineering
         <div style="display: table-cell;"> GPA: 3.62 </div>
     </div>
 </div>
-<div style="white-space: pre">
-Philosophy Immersion
-</div>
-</details>
 
-<details>
-<summary>
-Work Experience
-</summary>
+- Philosophy Immersion
 
-<h2>Oregon State University</h2>
+# Work Experience
+
+## Oregon State University
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -223,11 +194,9 @@ Work Experience
     </div>
 </div>
 
-<ul>
-<li>Authored a detailed literature review on multiagent temporal abstractions over extended time horizons, identifying three promising research directions to advance the field</li>
-<li>Designed a framework for learning inter-agent dependencies that arise due to environmental dynamics</li>
-<li>Published papers achieving 35% faster learning with 10% improved performance over asymmetric island models</li>
-</ul>
+- Authored a detailed literature review on multiagent temporal abstractions over extended time horizons, identifying three promising research directions to advance the field
+- Designed a framework for learning inter-agent dependencies that arise due to environmental dynamics
+- Published papers achieving 35% faster learning with 10% improved performance over asymmetric island models
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -235,13 +204,12 @@ Work Experience
         <h4 style="display: table-cell;"> September 2021 - June 2022 </h4>
     </div>
 </div>
-<ul>
-<li>Led teaching sections on architectural design of software with a focus on clean and maintainable code</li>
-<li>Formulated teaching plans for algorithm design and analysis, mobile and web development, and data structures</li>
-<li>Automated grading and feedback for algorithm implementations in multiple programming languages that reduced workload by over 85%</li>
-</ul>
 
-<h2>IOMAXIS</h2>
+- Led teaching sections on architectural design of software with a focus on clean and maintainable code
+- Formulated teaching plans for algorithm design and analysis, mobile and web development, and data structures
+- Automated grading and feedback for algorithm implementations in multiple programming languages that reduced workload by over 85%
+
+## IOMAXIS
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -249,12 +217,11 @@ Work Experience
         <h4 style="display: table-cell;"> June 2022 - September 2023 </h4>
     </div>
 </div>
-<ul>
-<li>Implemented a multi-agent reinforcement learner to automate search and rescue efforts by autonomous drones that self-learned how to fly
-and navigate in a simulated real-world crisis area using AirSim</li>
-<li>Organized creation of a project to reduce overhead with identifying and pursuing new project proposals</li>
-<li>Designed a GUI for detection and analysis of zero-day attacks and anomalous system behavior</li>
-</ul>
+
+- Implemented a multi-agent reinforcement learner to automate search and rescue efforts by autonomous drones that self-learned how to fly
+and navigate in a simulated real-world crisis area using AirSim
+- Organized creation of a project to reduce overhead with identifying and pursuing new project proposals
+- Designed a GUI for detection and analysis of zero-day attacks and anomalous system behavior
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -262,13 +229,12 @@ and navigate in a simulated real-world crisis area using AirSim</li>
         <h4 style="display: table-cell;"> September 2021 - June 20223 </h4>
     </div>
 </div>
-<ul>
-<li>Designed and implemented a network intrusion management system able to cordon off intrusions on a live network in less than 8 seconds</li>
-<li>Developed AI-based approach using YOLOv3 for landmark recognition from phone images that achieved 98% using top-3 classification</li>
-<li>Performed and presented comparison tests of different machine learning models and cleaning methods to inform contract proposals</li>
-</ul>
 
-<h2>UTC Aerospace Systems</h2>
+- Designed and implemented a network intrusion management system able to cordon off intrusions on a live network in less than 8 seconds
+- Developed AI-based approach using YOLOv3 for landmark recognition from phone images that achieved 98% using top-3 classification
+- Performed and presented comparison tests of different machine learning models and cleaning methods to inform contract proposals
+
+## UTC Aerospace Systems
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -276,14 +242,12 @@ and navigate in a simulated real-world crisis area using AirSim</li>
         <h4 style="display: table-cell;"> January 2017 - Aug. 2017 </h4>
     </div>
 </div>
-<ul>
-<li>Led efforts in developing test harness for verifying and validating code functionality on target systems to comply with DO-178C</li>
-<li>Cleaned and analyzed messy sensor data that fed into systems used for detection of aircraft fires</li>
-<li>Automated generating metric reports detailing code completion to present to customers</li>
-</ul>
 
-<!--
-<h2>Rochester Institute of Technology</h2>
+- Led efforts in developing test harness for verifying and validating code functionality on target systems to comply with DO-178C
+- Cleaned and analyzed messy sensor data that fed into systems used for detection of aircraft fires
+- Automated generating metric reports detailing code completion to present to customers
+
+## Rochester Institute of Technology
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -291,14 +255,12 @@ and navigate in a simulated real-world crisis area using AirSim</li>
         <h4 style="display: table-cell;"> August 2016 - Dec. 2016 </h4>
     </div>
 </div>
-<ul>
-<li>Reviewed and tested submitted code for success of implementation and quality of documentation</li>
-<li>Worked alongside students in aiding them on how to better develop readable and maintainable code</li>
-<li>Developed test cases and scripts to automate the process of running code and providing meaningful feedback to students</li>
-</ul>
--->
 
-<h2>Sophos</h2>
+- Reviewed and tested submitted code for success of implementation and quality of documentation
+- Worked alongside students in aiding them on how to better develop readable and maintainable code
+- Developed test cases and scripts to automate the process of running code and providing meaningful feedback to students
+
+## Sophos
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
@@ -306,26 +268,15 @@ and navigate in a simulated real-world crisis area using AirSim</li>
         <h4 style="display: table-cell;"> June 2016 - Aug. 2016 </h4>
     </div>
 </div>
-<ul>
-<li>Automated the discovery of external OSINT assets, including available employee information, domains, and IP ranges</li>
-<li>Leveraged Java and Burps Suite to automate vulnerabilities assessment in front- and web-facing internal assets</li>
-<li>Uncovered and validated potential threat vectors prior to exploit and aided in remediation of findings</li>
-</ul>
-</details>
 
-<details>
-<summary>
-Projects
-</summary>
+- Automated the discovery of external OSINT assets, including available employee information, domains, and IP ranges
+- Leveraged Java and Burps Suite to automate vulnerabilities assessment in front- and web-facing internal assets
+- Uncovered and validated potential threat vectors prior to exploit and aided in remediation of findings
 
-<h2>
-<a href="/projects/systemcontrol">Brain-Controlled Control Interface</a>
-</h2>
+# Projects
 
-<ul>
-<li>Designed iterative implementations for a headset to gather reliable electroencephalogram signals from the scalp</li>
-<li>Incorporates notch filters and cable shielding to reduce signal noise</li>
-<li>Allows for impedance checking to measure reliability of gathered signal</li>
-</ul>
+## <a href="/projects/systemcontrol">Brain-Controlled Control Interface</a>
 
-</details>
+- Designed iterative implementations for a headset to gather reliable electroencephalogram signals from the scalp
+- Incorporates notch filters and cable shielding to reduce signal noise
+- Allows for impedance checking to measure reliability of gathered signal
