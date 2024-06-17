@@ -185,8 +185,29 @@ Presenting to Customers and Stakeholders
 
 # Work Experience
 
+## Scale AI
+
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Software Engineer (Remote Contract) </h4>
+        <h4 style="display: table-cell;"> February 2024 - Present </h4>
+    </div>
+</div>
+
+- Increased efficiency of training LLMs by identifying performance deviations between models in 70% of cases within 4 to 5 interactions
+- Improved model accuracy and reliability by refining prompts and evaluating ground truth for math and reasoning tasks
+- Enhanced debugging and problem-solving skills of language models by assessing their performance on Python code issues and API-based tasks
+
 ## Oregon State University
 
+<div style="width: 100%; display: table;">
+    <div style="display: table-row">
+        <h4 style="width: 600px; display: table-cell;"> Graduate Teaching and Research Assistant </h4>
+        <h4 style="display: table-cell;"> September 2021 - September 2023 </h4>
+    </div>
+</div>
+
+<!--
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
         <h4 style="width: 600px; display: table-cell;"> Graduate Research Assistant </h4>
@@ -194,45 +215,42 @@ Presenting to Customers and Stakeholders
     </div>
 </div>
 
-- Authored a detailed literature review on multiagent temporal abstractions over extended time horizons, identifying three promising research directions to advance the field
-- Designed a framework for learning inter-agent dependencies that arise due to environmental dynamics
-- Published papers achieving 35% faster learning with 10% improved performance over asymmetric island models
-
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
         <h4 style="width: 600px; display: table-cell;"> Graduate Teaching Assistant </h4>
         <h4 style="display: table-cell;"> September 2021 - June 2022 </h4>
     </div>
 </div>
+-->
 
-- Led teaching sections on architectural design of software with a focus on clean and maintainable code
-- Formulated teaching plans for algorithm design and analysis, mobile and web development, and data structures
-- Automated grading and feedback for algorithm implementations in multiple programming languages that reduced workload by over 85%
+- Published research in top multiagent and evolutionary journals demonstrating a 35% increase in learning speed and a 10% enhancement in performance compared to prior asymmetric island models
+- Authored a detailed literature review on multiagent temporal abstractions over extended time horizons, identifying three promising research directions to advance the field, and detailed how these approaches might be extended for future work
+- Developed a machine learning framework using reinforcement and evolutionary learning to model inter-agent dependencies arising from environmental dynamics, enhancing system performance and robustness under shifting conditions
+- Reduced workload by over 85% by automating grading and feedback for algorithm implementations in multiple programming languages
 
 ## IOMAXIS
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
         <h4 style="width: 600px; display: table-cell;"> Artificial Intelligence Research Engineer </h4>
-        <h4 style="display: table-cell;"> June 2022 - September 2023 </h4>
+        <h4 style="display: table-cell;"> September 2019 - August 2021 </h4>
     </div>
 </div>
 
-- Implemented a multi-agent reinforcement learner to automate search and rescue efforts by autonomous drones that self-learned how to fly
-and navigate in a simulated real-world crisis area using AirSim
-- Organized creation of a project to reduce overhead with identifying and pursuing new project proposals
-- Designed a GUI for detection and analysis of zero-day attacks and anomalous system behavior
+- Designed a proof-of-concept multiagent self-learning algorithm for search and rescue efforts in constrained environments in AirSim and documented key insights in an organizational white paper, guiding future reinforcement learning projects
+- Increased targeted proposals by 50%, securing four additional contracts in six months by leveraging NLP models to match company skills with proposal requirements using LLMs, RNNs and bag-of-words with feature extraction
+- Conducted research on audio separation for multiple individuals using spectrogram analysis, evaluating various machine learning models, features, and losses to determine the most effective techniques
 
 <div style="width: 100%; display: table;">
     <div style="display: table-row">
-        <h4 style="width: 600px; display: table-cell;"> Artificial Intelligence Research Co-op </h4>
-        <h4 style="display: table-cell;"> September 2021 - June 20223 </h4>
+        <h4 style="width: 600px; display: table-cell;"> Jr. Software Engineer </h4>
+        <h4 style="display: table-cell;"> May 2018 - September 2019 </h4>
     </div>
 </div>
 
-- Designed and implemented a network intrusion management system able to cordon off intrusions on a live network in less than 8 seconds
-- Developed AI-based approach using YOLOv3 for landmark recognition from phone images that achieved 98% using top-3 classification
-- Performed and presented comparison tests of different machine learning models and cleaning methods to inform contract proposals
+- Achieved 95% top-3 accuracy in landmark recognition from a spare dataset of phone images without metadata by developing a system using a Siamese network pre-trained on YOLOv3 and fine-tuned using triplet loss
+- Implemented protocols for detecting and reacting to potential zero-day threats from malicious actors on a secure network able to cordon off portions of a network in less than 8 seconds
+- Developed a decentralized data capture and analysis system for enhancing network security using software-defined networking and secure protocols for node authenticity and encrypted data exchange
 
 ## UTC Aerospace Systems
 
@@ -243,9 +261,9 @@ and navigate in a simulated real-world crisis area using AirSim
     </div>
 </div>
 
-- Led efforts in developing test harness for verifying and validating code functionality on target systems to comply with DO-178C
-- Cleaned and analyzed messy sensor data that fed into systems used for detection of aircraft fires
-- Automated generating metric reports detailing code completion to present to customers
+- Ensured compliance with FAA regulations by designing and implementing a test harness in Simulink, MATLAB, and C++ to verify and validate code functionality on target systems for aircraft fire detection systems
+- Reduced workload of customer reporting by automating metric reports on adherence and completion of functional and technical requirements
+- Performed requirement and code reviews in C++ and MATLAB for style, completeness, and accuracy
 
 ## Rochester Institute of Technology
 
@@ -269,9 +287,9 @@ and navigate in a simulated real-world crisis area using AirSim
     </div>
 </div>
 
-- Automated the discovery of external OSINT assets, including available employee information, domains, and IP ranges
-- Leveraged Java and Burps Suite to automate vulnerabilities assessment in front- and web-facing internal assets
-- Uncovered and validated potential threat vectors prior to exploit and aided in remediation of findings
+- Automated OSINT discovery processes, identifying and cataloging employee information, domains, and IP ranges to bolster security measures
+- Improved the efficiency of detecting and verifying web-facing vulnerabilities through automating Burp Suite using Java scripts
+- Identified and validated potential threat vectors, contributing to the remediation of security findings and enhancing overall system security
 
 # Projects
 
