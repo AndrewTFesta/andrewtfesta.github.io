@@ -1,8 +1,8 @@
-theme: jekyll-theme-hacker
+remote_theme: pages-themes/hacker@v0.2.0
 future: true
 timezone: US/Pacific
 
 title: AndrewTFesta
-description: Unfortunate stopping place for people to peer into who I am.
+description: Unfortunate place where people can peer into who I am.
 
 google_analytics: G-TC75PLNSM8
