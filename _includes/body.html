@@ -1,21 +1,13 @@
 <body>
-<!--  <div class="sidenav left">-->
-<!--    <a href="#">About</a>-->
-<!--    <a href="#">Services</a>-->
-<!--    <a href="#">Clients</a>-->
-<!--    <a href="#">Contact</a>-->
-<!--  </div>-->
-
-<!--  <div class="sidenav right">-->
-<!--    <a href="#">About</a>-->
-<!--    <a href="#">Services</a>-->
-<!--    <a href="#">Clients</a>-->
-<!--    <a href="#">Contact</a>-->
-<!--  </div>-->
-
-  <div class="container">
+  <div id="content" class="container">
+    <section id="left_content">
+      {% include left_content.html %}
+    </section>
     <section id="main_content">
       {{ content }}
+    </section>
+    <section id="right_content">
+      {% include right_content.html %}
     </section>
   </div>
 </body>

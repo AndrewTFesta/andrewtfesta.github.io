@@ -23,29 +23,46 @@ header {
   font-size: 20px;
 }
 
-.sidenav {
-  height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-
-  overflow-x: hidden;
-  padding-top: 20px;
+#content {
+  display: flex;
+  max-width: 1800px;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  display: block;
+#main_content {
+  width: 50%;
+  padding: 0 1% 0 1%;
+  margin: 0 1% 0 1%;
+  border: #63c0f5;
+  /*border-style: solid;*/
 }
 
-.left {
-  left: 20%;
+#right_content,
+#left_content {
+  width:20%;
+  padding: 10px 1% 0 1%;
+  margin: 0 1% 0 1%;
+  border: #63c0f5;
+  /*border-style: solid;*/
 }
 
-.right {
-  left: 70%;
+.rss summary {
+
+  font-size: 16px;
+  padding: 0;
+  padding-top: 25px;
+}
+
+.rss h3 {
+  font-size: 12px;
+  display: none;
+}
+
+.rss h4 {
+  font-size: 12px;
+}
+
+.rss p {
+  font-size: 10px;
 }
 
 .page-footer {
