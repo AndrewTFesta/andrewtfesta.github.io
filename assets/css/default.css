@@ -25,16 +25,16 @@ header {
 
 #content {
   display: flex;
-  max-width: 1800px;
+  max-width: 2000px;
   padding-bottom: 2.5rem;
-  min-height: calc(100vh - 29vh);
 }
 
 #main_content {
-  width: 50%;
+  width: 55%;
   padding: 0 1% 0 1%;
   margin: 0 1% 0 1%;
   border: #63c0f5;
+  min-height: calc(100vh - 29vh);
 }
 
 #right_content,
@@ -43,6 +43,7 @@ header {
   padding: 10px 1% 0 1%;
   margin: 0 1% 0 1%;
   border: #63c0f5;
+  max-height: 500px;
 }
 
 .page-footer {
