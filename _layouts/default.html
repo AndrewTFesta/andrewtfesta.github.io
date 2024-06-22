@@ -12,11 +12,11 @@
 
     <!-- tab styling -->
     {% if site.title %}
-    {% if page.title %}
-    <title>{{ site.title }} | {{ page.title }}</title>
-    {% else %}
-    <title>{{ site.title }}</title>
-    {% endif %}
+      {% if page.title %}
+      <title>{{ site.title }} | {{ page.title }}</title>
+      {% else %}
+      <title>{{ site.title }}</title>
+      {% endif %}
     {% else %}
     <title>Andrew T. Festa</title>
     {% endif %}
@@ -37,5 +37,28 @@
     {% endif %}
   </head>
 
-  {% include body.html %}
+  <!--https://www.learnenough.com/css-and-layout-tutorial/struct-layout-->
+  <body>
+  {% include header.html %}
+
+  <div id="content" class="container">
+    <section id="left_content">
+      {% include left_content.html %}
+    </section>
+    <section id="main_content">
+      {% if page.type == "repo" %}
+        {% include repo.html %}
+      <p>Huge success.</p>
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </section>
+    <section id="right_content">
+      {% include right_content.html %}
+    </section>
+  </div>
+
+  {% include footer.html %}
+  </body>
+
 </html>

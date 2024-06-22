@@ -54,6 +54,8 @@ It can also be useful to gain a bit of insight into the [site metadata](https://
 
 ## Node
 
+- [NodeJS](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+- [Deploying to GitHub Pages using gh-pages](https://blog.seancoughlin.me/deploying-to-github-pages-using-gh-pages)
 - [Master the Art of Free Website Deployment: Firebase, GitHub Pages, and Vercel Unveiled!](https://vaibhavbajpayee21.medium.com/unleash-your-app-deploy-for-free-with-saas-magic-87b84f8cb6d8)
 
 > Prerequisite: your system must have [Nodejs](https://nodejs.org/en) installed and a repository
