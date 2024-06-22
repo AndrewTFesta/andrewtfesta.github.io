@@ -48,10 +48,9 @@
     <section id="main_content">
       {% if page.type == "repo" %}
         {% include repo.html %}
-      <p>Huge success.</p>
-      {% else %}
-        {{ content }}
+        <p>Huge success.</p>
       {% endif %}
+      {{ content }}
     </section>
     <section id="right_content">
       {% include right_content.html %}
