@@ -1,5 +1,6 @@
 /venv*/
 .idea/
+/.github/
 
 Gemfile
 Gemfile.lock
@@ -10,3 +11,12 @@ _site/
 scripts/**
 nb/**
 /todo.md
+
+# Firebase
+/.firebaserc
+/firebase.json
+/firebase/
+
+# Node
+/node_modules/
+/package-lock.json
