@@ -12,6 +12,9 @@ scripts/**
 nb/**
 /todo.md
 
+# no-nos
+/secrets.yml
+
 # Firebase
 /.firebaserc
 /firebase.json
