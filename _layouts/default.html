@@ -11,14 +11,20 @@
     <meta http-equiv='pragma' content='no-cache'>
 
     <!-- tab styling -->
+    {% if jekyll.environment != 'production' %}
+      {% assign prod_tag = "test | " %}
+    {% else %}
+      {% assign prod_tag = "" %}
+    {% endif %}
+
     {% if site.title %}
       {% if page.title %}
-      <title>{{ site.title }} | {{ page.title }}</title>
+      <title>{{ prod_tag }}{{ site.title }} | {{ page.title }}</title>
       {% else %}
-      <title>{{ site.title }}</title>
+      <title>{{ prod_tag }}{{ site.title }}</title>
       {% endif %}
     {% else %}
-    <title>Andrew T. Festa</title>
+    <title>{{ prod_tag }}Andrew T. Festa</title>
     {% endif %}
     <link rel="icon" type="image/png" href="../assets/images/moyo.png">
 
