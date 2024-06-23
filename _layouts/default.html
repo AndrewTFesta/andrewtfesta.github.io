@@ -54,7 +54,11 @@
     <section id="main_content">
       {% if page.type == "repo" %}
         {% include repo.html %}
-        <p>Huge success.</p>
+        <p>Repo page</p>
+        <p>Environment: {{ site.github.environment }}</p>
+        <p>Site description: {{ site.description }}</p>
+        <p>Repos: {{ site.github.public_repositories }}</p>
+        <p>URL: {{ site.github.url }}</p>
       {% endif %}
       {{ content }}
     </section>
