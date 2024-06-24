@@ -1,0 +1,19 @@
+<!-- Import the gradio JS library into your site by adding the script below in your site. -->
+<script	type="module"	src="https://gradio.s3-us-west-2.amazonaws.com/{{ site.gradio_version }}/gradio.js"></script>
+
+<!-- Set the src= attribute to your Space's embed URL, which you can find in the "Embed this Space" button. -->
+<!-- `space`: an optional shorthand if your Gradio demo is hosted on Hugging Face Space. Accepts a username/space_name instead of a full URL. -->
+<!-- If this attribute is provided, then src does not need to be provided. -->
+
+<!--<gradio-app	src="{{ page.app_url }}" eager="true" initial_height="0px" theme_mode="system"></gradio-app>-->
+<gradio-app	space="{{ page.app_space }}" eager="true" initial_height="0px" theme_mode="system"></gradio-app>
+
+
+<script>
+	function handleLoadComplete() {
+		console.log("Embedded space has finished rendering");
+	}
+
+	const gradioApp = document.querySelector("gradio-app");
+	gradioApp.addEventListener("render", handleLoadComplete);
+</script>

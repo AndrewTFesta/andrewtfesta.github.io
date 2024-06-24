@@ -7,3 +7,4 @@ description: Unfortunate stopping place for people to peer into who I am.
 repository: AndrewTFesta/andrewtfesta.github.io
 
 google_analytics: G-TC75PLNSM8
+gradio_version: "4.36.1"

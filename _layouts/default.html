@@ -1,47 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-    <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--  CDN management to ensure site changes are reflected faster  -->
-    <meta http-equiv='cache-control' content='no-cache'>
-    <meta http-equiv='expires' content='0'>
-    <meta http-equiv='pragma' content='no-cache'>
-
-    <!-- tab styling -->
-    {% if jekyll.environment != 'production' %}
-      {% assign prod_tag = "test | " %}
-    {% else %}
-      {% assign prod_tag = "" %}
-    {% endif %}
-
-    {% if site.title %}
-      {% if page.title %}
-      <title>{{ prod_tag }}{{ site.title }} | {{ page.title }}</title>
-      {% else %}
-      <title>{{ prod_tag }}{{ site.title }}</title>
-      {% endif %}
-    {% else %}
-    <title>{{ prod_tag }}Andrew T. Festa</title>
-    {% endif %}
-    <link rel="icon" type="image/png" href="../assets/images/moyo.png">
-
-    <!-- page styling -->
-    <link rel="stylesheet" href="../assets/css/hacker.css">
-    <link rel="stylesheet" href="../assets/css/default.css">
-
-    <!-- Let's make stuff happen   -->
-    <script async src="../assets/js/default.js"></script>
-    <script async src="../assets/js/firebase.js"></script>
-
-    <!-- Google Analytics -->
-    <!-- We don't want ga to get confused when we're building and testing the site locally -->
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-    {% include analytics.html %}
-    {% endif %}
-  </head>
+  {% include head.html %}
 
   <!--https://www.learnenough.com/css-and-layout-tutorial/struct-layout-->
   <body>
@@ -52,15 +11,22 @@
       {% include left_content.html %}
     </section>
     <section id="main_content">
-      {% if page.type == "repo" %}
-        {% include repo.html %}
-        <p>Repo page</p>
-        <p>Environment: {{ site.github.environment }}</p>
-        <p>Site description: {{ site.description }}</p>
-        <p>Repos: {{ site.repository }}</p>
-        <p>Repos: {{ site.github.public_repositories }}</p>
-        <p>URL: {{ site.github.url }}</p>
-      {% endif %}
+
+      {% case page.type %}
+        {% when "repo" %}
+          {% include repo.html %}
+          <p>Repo page</p>
+          <p>Environment: {{ site.github.environment }}</p>
+          <p>Site description: {{ site.description }}</p>
+          <p>Repos: {{ site.repository }}</p>
+          <p>Repos: {{ site.github.public_repositories }}</p>
+          <p>URL: {{ site.github.url }}</p>
+        {% when "app" %}
+          {% include app.html %}
+        {% else %}
+        <!-- Plain page - default to content  -->
+      {% endcase %}
+
       {{ content }}
     </section>
     <section id="right_content">

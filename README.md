@@ -93,6 +93,10 @@ gr.Interface.from_pipeline(pipe).launch()
 
 > By default, the web demo runs on a local server. If you’d like to share it with others, you can generate a temporary public link by setting `share=True` in `launch()`. You can also host your demo on [Hugging Face Spaces](https://huggingface.co/spaces) for a permanent link.
 
+- [Setting up a share server](https://github.com/huggingface/frp/)
+- [Adding Authentication to an app](https://www.gradio.app/guides/sharing-your-app#authentication)
+
+
 ## Firebase
 
 - [What is Firebase and how to use it](https://www.youtube.com/watch?v=p9pgI3Mg-So&t=1s)
@@ -102,7 +106,19 @@ gr.Interface.from_pipeline(pipe).launch()
 - [Deploy to live & preview channels via GitHub pull requests](https://firebase.google.com/docs/hosting/github-integration#:~:text=You%20can%20integrate%20deploys%20to,PR%20on%20your%20GitHub%20repository.)
 
 [//]: # (## Streamlit)
-[//]: # (## AWS)
+
+## AWS
+
+- [AWS Homepage](https://aws.amazon.com/)
+- [AWS Getting Started](https://aws.amazon.com/getting-started/)
+- [AWS Training](https://aws.amazon.com/training/)
+- [Skill builder](https://explore.skillbuilder.aws/learn/signin)
+- [Ramp-up guide - DA](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Data_Analytics.pdf)
+- [Ramp-up guide - ML](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Machine_Learning.pdf)
+- [AWS Docs - ML and AI](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/machine-learning.html)
+- [AWS Docs - Robotics](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/robotics.html)
+- [AWS Docs - Dev Tools](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/developer-tools.html)
+
 [//]: # (## Azure)
 
 # Publishing Sources
