@@ -28,3 +28,11 @@ function toggleAllDetails() {
     });
 }
 
+function toggleTheme() {
+    var curr_link = document.getElementById('toggle_theme');
+    if (curr_link.getAttribute('href') == '../assets/css/hacker.css') {
+        curr_link.setAttribute('href', '../assets/css/cayman.css');
+    } else {
+        curr_link.setAttribute('href', '../assets/css/hacker.css');
+    }
+}

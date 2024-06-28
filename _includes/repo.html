@@ -1,3 +1,7 @@
+<p>
+  <button onclick="toggleTheme()">Switch theme</button>
+</p>
+
 {% for repository in site.github.public_repositories %}
   * {{ repository.name }} -> {{ repository.html_url }}
   <p>{{ repository.description}}</p>
