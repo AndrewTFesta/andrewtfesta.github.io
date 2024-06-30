@@ -179,12 +179,7 @@ th {
 /* Links */
 a {
   color: #a2dafa;
-  /*color: #63c0f5;*/
-  /*text-shadow: 0 0 15px black;*/
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  /*text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);*/
-  /*-webkit-text-stroke-width: 3px;*/
-  /*-webkit-text-stroke-color: black;*/
   text-decoration: none;
 }
 
