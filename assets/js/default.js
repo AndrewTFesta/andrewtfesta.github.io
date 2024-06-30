@@ -28,11 +28,13 @@ function toggleAllDetails() {
     });
 }
 
-function toggleTheme() {
-    var curr_link = document.getElementById('toggle_theme');
-    if (curr_link.getAttribute('href') == '../assets/css/hacker.css') {
-        curr_link.setAttribute('href', '../assets/css/cayman.css');
-    } else {
-        curr_link.setAttribute('href', '../assets/css/hacker.css');
-    }
+// How to make it site-wide?
+function enableHacker() {
+    var toggle_style = document.getElementById('toggle_style');
+    toggle_style.setAttribute('href', '../assets/css/hacker.css');
+}
+
+function enableCayman() {
+    var toggle_style = document.getElementById('toggle_style');
+    toggle_style.setAttribute('href', '../assets/css/cayman.css');
 }

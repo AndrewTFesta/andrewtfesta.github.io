@@ -1,0 +1,166 @@
+#content-holder p, #content-holder li {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1170px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 544px) and (max-width: 768px) {
+}
+
+@media screen and (max-width: 544px) {
+}
+
+
+.project-panel {
+  background: #020202;
+  padding: 2.5rem 0;
+}
+
+[data-pp-gutter="no"] .project-panel .pp-thumbs,
+.project-panel .pp-thumbs {
+  margin-bottom: -1.666666666666667rem;
+}
+
+#content-holder .panel-label, .projectnav-preview .panel-label {
+  color: #000000;
+  font-size: 1.5555555555555556rem;
+  text-transform: uppercase;
+  padding-left: 0rem;
+  padding-bottom: 1.666666666666667rem;
+  text-align: left;
+  line-height: 1;
+}
+
+.project-panel .pp-title {
+  padding: 0.5555555555555556rem 0rem 1.666666666666667rem 0rem;
+}
+
+.project-panel .pp-title a {
+  color: #000000;
+  font-size: 0.7222222222222222rem;
+  text-transform: uppercase;
+}
+
+.project-panel .pp-title span {
+  color: #999999;
+  font-size: 0.7222222222222222rem;
+  text-transform: none;
+}
+
+.semplice-next-prev {
+  background: #020202;
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.semplice-next-prev .np-inner {
+  height: 10rem;
+}
+
+.semplice-next-prev .np-inner .np-link .np-prefix,
+.semplice-next-prev .np-inner .np-link .np-label {
+  color: #000000;
+  font-size: 1.555555555555556rem;
+  text-transform: none;
+  letter-spacing: 0rem;
+}
+
+.semplice-next-prev .np-inner .np-link .np-text-above {
+  padding-bottom: 2px;
+}
+
+.semplice-next-prev .np-inner .np-link .np-label-above {
+  color: #aaaaaa;
+  font-size: 0.7777777777777778rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.semplice-next-prev .np-inner .np-link .np-text {
+  padding: 0rem 0rem;
+}
+
+.semplice-next .np-text {
+  margin-right: -0rem;
+}
+
+.semplice-next-prev .nextprev-seperator {
+  width: 1px;
+  margin: 1.666666666666667rem -0px;
+  background: #000000;
+}
+
+.np-link:hover {
+  background: #ffffff;
+}
+
+.np-link:hover .np-text .np-label,
+.np-link:hover .np-text .np-prefix {
+  color: #000000 !important;
+}
+
+.np-link:hover .np-label-above {
+  color: #000000 !important;
+}
+
+.is-content {
+  color: #f7ffe0;
+}
+
+a {
+  color: #dbffa3;
+}
+
+a:hover {
+  color: #f7ffe0;
+}
+
+#nprogress .bar {
+  background: transparent;
+}
+
+#content-holder .thumb .thumb-inner .thumb-hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  background-size: auto;
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+
+#content-holder .thumb .thumb-inner {
+  transition: box-shadow 0.3s ease;
+}
+
+#content-holder .thumb .thumb-inner:hover, .is-frontend #content-holder .thumb .wrap-focus {
+  box-shadow: 0.05555555555555555rem 0rem 0.5rem 0rem rgba(0, 0, 0, 1);
+}
+
+#content-holder .thumb .thumb-inner img {
+  transition: all 0.3s ease;
+}
+
+#content-holder .thumb .thumb-inner:hover img, .is-frontend #content-holder .thumb .wrap-focus img {
+  transform: scale(1.15);
+}
+
+#content-holder .thumb .thumb-hover-meta {
+  padding: 2.22rem;
+}
+
+#content-holder .thumb .thumb-hover-meta .title {
+  color: #ffffff;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+#content-holder .thumb .thumb-hover-meta .category {
+  color: #999999;
+  font-size: 0.6666666666666666rem;
+  text-transform: uppercase;
+}
+
+#content-holder .thumb video {
+  opacity: 1;
+}
