@@ -55,19 +55,12 @@ header {
 .header-navbar {
   display: flex;
   justify-content: center;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   background: black;
   border-top: 1px dashed #b5e853;
   border-bottom: 1px dashed #b5e853;
-}
-
-.header-navbar ul {
-  display: flex;
-  justify-content: center;
-  width: 1000px;
-  list-style-type: none;
-  margin: 0 auto;
 }
 
 .header-navbar li {
@@ -76,9 +69,8 @@ header {
 
 .header-navbar li a {
   float: left;
-  /* top left/right bottom */
-  padding: 12px 48px 8px;
-
+  padding: 8px 18px;
+  display: block;
   text-align: center;
   text-decoration: none;
   font-size: 22px;
@@ -88,7 +80,6 @@ header {
 .header-navbar li a:hover {
   background-color: #111111;
 }
-
 /*.header-navbar .dropdown {*/
 /*  position: relative;*/
 /*  display: inline-block;*/
