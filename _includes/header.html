@@ -8,9 +8,6 @@
       <a class="nav-link" href="{{ '/research' | relative_url }}">
         Research
       </a>
-      <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">
-        Projects
-      </a>
       <a class="nav-link" href="{{ '/cv' | relative_url }}">
         CV
       </a>
@@ -20,6 +17,20 @@
       <a class="nav-link" href="{{ '/lessons' | relative_url }}">
         Lessons Learned
       </a>
+<!--      <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">-->
+<!--          Projects-->
+<!--      </a>-->
+
+      <div class="dropdown">
+        <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">
+          Projects
+        </a>
+        <div class="dropdown-content">
+          <a class="dropdown-link" href="{{ '/projects_overview' | relative_url }}">
+            Projects
+          </a>
+        </div>
+      </div>
     </section>
   </div>
 </header>

@@ -102,6 +102,22 @@ The listener capabilities have been moved into a single module. Callback functio
 
 ## Project Ideas
 
+### Pokemon Go Capture Practice
+
+To train the model, ideally we would like a dataset of user inputs that led to different collisions at various depths. Unfortunately, there doesn't seem to be a way to gather either of this as an objective ground truth. Niantic doesn't store logs that we can parse to determine the result of throws), and android doesn't have logs of user touch inputs. Instead, the best approach available to us is to record the screen and parse out where the user was touching during the throw, how far the Pokemon is, and the quality of the throw (miss, hit, nice, great, excellent, etc).
+
+#### Android Screen Recording
+
+Android screen recording is a bit of a solved problem in the age of streaming, and there are various ways we can capture the video feed for later processing. However, if we want to reinvent the wheel, we can write an app to capture the screen and inputs in a bit of a nicer format. The following links give a bit of information about what some useful libraries in android we can use to write such an application.
+
+- https://github.com/Cartucho/android-touch-record-replay
+- https://developer.android.com/develop/ui/views/touch-and-input/gestures/movement
+- https://developer.android.com/studio?gad_source=1&gclid=CjwKCAjw4f6zBhBVEiwATEHFVjEMYKq3W_lDQa-zLrAeDek8miZHEvO8aR3PEWBfJu0S_m80mPVI4xoCcDIQAvD_BwE&gclsrc=aw.ds&authuser=2
+- [Screen Recording on Android](https://www.youtube.com/watch?v=cDF-2S21Huw)
+- [Top Screen Recorders on Android](https://www.youtube.com/watch?v=93FGu1-Nqpk)
+
+#### Training the Throw Replicator/Evaluator Model
+
 ### Gesture Controlled Humanoid Robot
 #### Imitation Exoskeleton
 ### Low-Noise Flight Controller
