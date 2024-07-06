@@ -1,36 +1,41 @@
 <header>
-  <div id="title" class="container">
-    <a id="a-title" href="{{ '/' | relative_url }}">
+  <div class="header-banner">
+    <a href="{{ '/' | relative_url }}">
       <h1>AndrewTFesta.com</h1>
     </a>
+  </div>
 
-    <section class="header-nav-container" id="navigation">
-      <a class="nav-link" href="{{ '/research' | relative_url }}">
+  <ul id="navigation" class="header-navbar">
+    <li>
+      <a href="{{ '/research' | relative_url }}">
         Research
       </a>
-      <a class="nav-link" href="{{ '/cv' | relative_url }}">
-        CV
-      </a>
-      <a class="nav-link" href="{{ '/aboutme' | relative_url }}">
+    </li>
+    <li>
+      <a href="{{ '/aboutme' | relative_url }}">
         About Me
       </a>
-      <a class="nav-link" href="{{ '/lessons' | relative_url }}">
+    </li>
+    <li>
+      <a href="{{ '/lessons' | relative_url }}">
         Lessons Learned
       </a>
-      <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">
-          Projects
+    </li>
+    <li>
+      <a href="{{ '/projects_overview' | relative_url }}">
+        Projects
       </a>
-
-<!--      <div class="dropdown">-->
-<!--        <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">-->
-<!--          Projects-->
-<!--        </a>-->
-<!--        <div class="dropdown-content">-->
-<!--          <a class="dropdown-link" href="{{ '/projects_overview' | relative_url }}">-->
-<!--            Projects-->
-<!--          </a>-->
-<!--        </div>-->
-<!--      </div>-->
-    </section>
-  </div>
+    </li>
+  </ul>
+  <!--      <div class="dropdown">-->
+  <!--        <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">-->
+  <!--          Projects-->
+  <!--        </a>-->
+  <!--        <div class="dropdown-content">-->
+  <!--          <a class="dropdown-link" href="{{ '/projects_overview' | relative_url }}">-->
+  <!--            Projects-->
+  <!--          </a>-->
+  <!--        </div>-->
+  <!--      </div>-->
 </header>
+

@@ -4,37 +4,37 @@
 
   <!--https://www.learnenough.com/css-and-layout-tutorial/struct-layout-->
   <body>
-  {% include header.html %}
+    {% include header.html %}
 
-  <div id="content" class="container">
-    <section id="left_content">
-      {% include left_content.html %}
-    </section>
-    <section id="main_content">
+    <div id="body-content">
+      <section id="left_content">
+        {% include left_content.html %}
+      </section>
+      <section id="center_content">
 
-      {% case page.type %}
-        {% when "repo" %}
-          {% include repo.html %}
-          <p>Repo page</p>
-          <p>Environment: {{ site.github.environment }}</p>
-          <p>Site description: {{ site.description }}</p>
-          <p>Repos: {{ site.repository }}</p>
-          <p>Repos: {{ site.github.public_repositories }}</p>
-          <p>URL: {{ site.github.url }}</p>
-        {% when "app" %}
-          {% include app.html %}
-        {% else %}
-        <!-- Plain page - default to content  -->
-      {% endcase %}
+        {% case page.type %}
+          {% when "repo" %}
+            {% include repo.html %}
+            <p>Repo page</p>
+            <p>Environment: {{ site.github.environment }}</p>
+            <p>Site description: {{ site.description }}</p>
+            <p>Repos: {{ site.repository }}</p>
+            <p>Repos: {{ site.github.public_repositories }}</p>
+            <p>URL: {{ site.github.url }}</p>
+          {% when "app" %}
+            {% include app.html %}
+          {% else %}
+          <!-- Plain page - default to content  -->
+        {% endcase %}
 
-      {{ content }}
-    </section>
-    <section id="right_content">
-      {% include right_content.html %}
-    </section>
-  </div>
+        {{ content }}
+      </section>
+      <section id="right_content">
+        {% include right_content.html %}
+      </section>
+    </div>
 
-  {% include footer.html %}
+    {% include footer.html %}
   </body>
 
 </html>
