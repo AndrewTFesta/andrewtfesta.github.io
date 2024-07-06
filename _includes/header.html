@@ -22,21 +22,28 @@
         Lessons Learned
       </a>
     </li>
-    <li>
-      <a href="{{ '/projects_overview' | relative_url }}">
-        Projects
-      </a>
+<!--    <li>-->
+<!--      <a href="{{ '/projects_overview' | relative_url }}">-->
+<!--        Projects-->
+<!--      </a>-->
+<!--    </li>-->
+    <li class="dropdown">
+        <a class="dropbtn" href="{{ '/projects_overview' | relative_url }}">
+          Projects
+        </a>
+        <div class="dropdown-content">
+          <a href="{{ '/projects_overview' | relative_url }}">
+            Dropdown 0
+          </a>
+          <a href="{{ '/projects_overview' | relative_url }}">
+            Dropdown 1
+          </a>
+          <a href="{{ '/projects_overview' | relative_url }}">
+            Dropdown 2
+          </a>
+        </div>
     </li>
   </ul>
-  <!--      <div class="dropdown">-->
-  <!--        <a class="nav-link" href="{{ '/projects_overview' | relative_url }}">-->
-  <!--          Projects-->
-  <!--        </a>-->
-  <!--        <div class="dropdown-content">-->
-  <!--          <a class="dropdown-link" href="{{ '/projects_overview' | relative_url }}">-->
-  <!--            Projects-->
-  <!--          </a>-->
-  <!--        </div>-->
-  <!--      </div>-->
+
 </header>
 
