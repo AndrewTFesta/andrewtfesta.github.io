@@ -66,13 +66,12 @@ header {
 }
 
 .header-navbar li {
-  /* top/bottom left/right */
-  padding: 8px 1%;
   list-style-image: none;
-  float: left
 }
 
-.header-navbar  a {
+.header-navbar li a {
+  float: left;
+  padding: 8px 18px;
   display: block;
   text-align: center;
   text-decoration: none;
@@ -80,7 +79,7 @@ header {
   font-weight: 900;
 }
 
-.header-navbar li:hover {
+.header-navbar li a:hover {
   background-color: #111111;
 }
 
