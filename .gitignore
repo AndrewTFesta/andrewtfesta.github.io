@@ -10,7 +10,7 @@ _site/
 
 scripts/**
 nb/**
-/todo.md
+**/todo.md
 
 # no-nos
 /secrets.yml

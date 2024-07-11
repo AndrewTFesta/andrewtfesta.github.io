@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+
+  <!--https://www.learnenough.com/css-and-layout-tutorial/struct-layout-->
+  <body>
+
+    <header>
+      <div class="header-banner">
+        <a href="{{ '/' | relative_url }}">
+          <h1>AndrewTFesta.com</h1>
+        </a>
+      </div>
+
+      <ul class="header-navbar">
+        <li style="visibility: hidden">
+          <a href="#">
+            About Me
+          </a>
+        </li>
+      </ul>
+    </header>
+
+    <div id="body-content">
+      <section id="left_content">
+      </section>
+      <section id="center_content" style="align-content: center; text-align: center">
+        <br>
+        {{ content }}
+      </section>
+      <section id="right_content">
+      </section>
+    </div>
+
+    {% include footer.html %}
+  </body>
+
+</html>

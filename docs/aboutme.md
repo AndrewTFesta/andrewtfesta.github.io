@@ -7,6 +7,21 @@ Software engineer, machine learning researcher, pilot, and gamer.
 
 As for gamer, I thrive in strategy and chaos.
 
+<!--
+Please describe your experience and relevant projects you've had with Machine Learning and Artificial Intelligence
+
+EEG - Tensorflow
+Landmark recognition - PyTorch
+Audio voice separation - PyTorch
+Balancing multiple objectives in asymmetric multiagent learning - PyTorch
+
+I currently hold multiple advanced degrees in both computer science and robotics, both with a focus on applications to data science and machine learning. While working towards the robotics degree, I conducted research on cooperative multi-agent learning that additionally explored both (asymmetric) agent-agent and human-agent interactions. Prior to this, I worked on and shipped multiple government contracts that leveraged AI to augment human decision making processes.
+
+With regards to the software development, I have both industrial and academic experience in developing and teaching about the entire software development lifecycle and stack. Though my focus and interest tends to primarily lie in backend development, I have experience in mobile (android) and web development (react).
+
+The positions I expressed interest in both focus on the use of information to solve challenging real world problems that affect the nation and the world on a large scale. These positions would effectively require strong programmatic knowledge along with skills related to information management, machine learning, and networking, such as through the use of cloud architectures. At the core, software development and machine learning are about understanding, leveraging, and solving challenging problems and puzzles, a problem that has guided my interests and paths.
+-->
+
 ## Synopsis
 
 I grew up in West Hartford, CT and went to Conard High School where I was able to take classes, and later work with, <a href="https://sites.google.com/whps.org/corricelli">Jackie Corricelli</a>. I attribute a large portion of my interest in Computer Science to her and her dedication to teaching. She also played a pivotal role in my Eagle project, helping to coordinate communication between Smith Elementary School and Conard for fostering an interest in 4th and 5th grade students in learning coding.
