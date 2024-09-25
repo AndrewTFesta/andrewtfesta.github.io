@@ -1,7 +1,9 @@
 ---
 title: Home
-layout: maintenance
+layout: default
 ---
+
+<!--
 
 <div class="message" style="align-content: center">
   <h1>🤖 System Upgrade in Progress 🤖</h1>
@@ -18,6 +20,7 @@ layout: maintenance
   <p>Thank you for your understanding. We'll be back online soon with improved performance and new features!</p>
 </div>
 
+-->
 
 <!--
 
@@ -25,7 +28,6 @@ A place all for me to just ramble and rant. And you've come across this place. H
 
 -->
 
-<!--
 
 I am a Machine Learning Engineer and Researcher with a passion for solving problems and building innovative solutions. My commitment to my work is strongest when I am engaged in projects that involve creating and realizing impactful ideas. Reflecting on my experiences, especially those at IOMAXIS, I find the most fulfillment in developing full-scale products and solutions rather than smaller, less integrated tasks.
 
@@ -35,7 +37,6 @@ If you have grand ideas, let me be the developer that helps you bring them into 
 
 Visit my [About Me](aboutme) page to read about who I am.
 
--->
 
 <!--
 

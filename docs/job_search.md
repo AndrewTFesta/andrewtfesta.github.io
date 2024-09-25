@@ -67,11 +67,20 @@ Job Search
 
 # End-of-Interview Questions
 
-1. If I were to by hired, what would the next 6 months look like? What would a typical day look like? What would constitute "success"?
-2. How would you make use of my skill set?
-2. What does it take to be a successful candidate?
-3. What is your favorite/recent project or feature you worked on within the company?
-4. What's your favorite memory working here?
+1. What's your favorite memory working here?
+1. What is your favorite/recent project or feature you worked on within the company?
+1. If I were to by hired, what would the next 6 months look like? What would a typical day look like? What would constitute "success"? How would you make use of my skill set?
+1. What does it take to be a successful candidate?
+   1. What are the top, let's say 5, skills and/or traits you would expect for a successful candidate?
+1. What is the process for advocating for a new project or use case?
+1. What avenues exist for both inter and intra-team communication? For instance, at IOMAXIS, we used a blend of email and Mattermost.
+1. What data infrastructure is currently in place? How is data collected? How and where is it stored? Flat files? Databases? Relational? Non-relational?
+1. My understanding is there is a fair amount of experience with machine learning already in the team, though it is not *the* skill of any given individual. That's largely where I will be stepping in. How is ML currently used in some projects? What resources exist for building and training models of various sizes?
+1. What kind of restrictions are commonly enforced, or freedoms provided, in terms of setting up and maintaining a dev environment?
+1. Along with opportunities for growth and learning, what opportunities are there for community outreach? What types of programs or events are currently in place?
+1. How do you foresee the team growing over the course of the next 6 months to a year?
+1. What forms of feedback are in place to let me see the impacts of my efforts on those I work with and the company as a whole?
+
 
 # Saved Answers
 
