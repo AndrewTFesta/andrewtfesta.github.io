@@ -12,7 +12,7 @@ layout: default
     
     Initializing update sequence...
     Upgrading digital infrastructure...
-    
+
     Estimated completion time: A few days
     
     We apologize for the inconvenience. Your patience is appreciated.
